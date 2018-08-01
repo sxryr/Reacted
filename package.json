@@ -1,0 +1,29 @@
+{
+  "name": "reacted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot --progress",
+    "build": "webpack --mode production --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  }
+}
