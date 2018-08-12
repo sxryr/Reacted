@@ -18,6 +18,7 @@
     "babel-loader": "*",
     "babel-preset-env": "*",
     "babel-preset-react": "*",
+    "babel-plugin-transform-class-properties": "*",
     "css-loader": "*",
     "file-loader": "*",
     "html-webpack-plugin": "*",
